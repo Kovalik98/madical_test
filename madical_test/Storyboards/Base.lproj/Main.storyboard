@@ -41,7 +41,6 @@
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="133" id="BCo-a3-a2j"/>
-                                                    <constraint firstAttribute="width" constant="75" id="s0f-GW-oFw"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-WR-Pqj" customClass="SectionsView" customModule="madical_test" customModuleProvider="target">
@@ -55,6 +54,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="133" id="8tV-0b-D5o"/>
+                                            <constraint firstItem="616-Rz-InH" firstAttribute="centerX" secondItem="3BF-dJ-Qyo" secondAttribute="centerX" id="imM-1a-xo5"/>
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-uY-bmY">
