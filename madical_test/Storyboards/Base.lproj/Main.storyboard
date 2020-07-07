@@ -8,6 +8,11 @@
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBoldItalic.ttf">
+            <string>Poppins-SemiBoldItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -53,21 +58,21 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-uY-bmY">
-                                        <rect key="frame" x="26" y="40" width="79.5" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                        <rect key="frame" x="26" y="40" width="63.5" height="24"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mumbai ∨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCc-1d-FHy">
-                                        <rect key="frame" x="273" y="47" width="76" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="263" y="40" width="85.5" height="24"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" name="head"/>
                                 <constraints>
-                                    <constraint firstItem="bCc-1d-FHy" firstAttribute="top" secondItem="nKP-La-adU" secondAttribute="top" constant="47" id="1KG-d4-nkY"/>
+                                    <constraint firstItem="bCc-1d-FHy" firstAttribute="top" secondItem="nKP-La-adU" secondAttribute="top" constant="40" id="1KG-d4-nkY"/>
                                     <constraint firstItem="bCc-1d-FHy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FTi-uY-bmY" secondAttribute="trailing" constant="8" symbolic="YES" id="1i4-G4-GPH"/>
                                     <constraint firstItem="3BF-dJ-Qyo" firstAttribute="top" secondItem="nKP-La-adU" secondAttribute="top" constant="106" id="F3L-7l-R4e"/>
                                     <constraint firstItem="FTi-uY-bmY" firstAttribute="top" secondItem="nKP-La-adU" secondAttribute="top" constant="40" id="SqP-KS-e5j"/>
@@ -150,8 +155,8 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors nearby you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kk-nv-3aN">
-                                                    <rect key="frame" x="15" y="-4" width="150" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="15" y="-4" width="169.5" height="24"/>
+                                                    <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                                     <color key="textColor" name="title"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>

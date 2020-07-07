@@ -12,6 +12,7 @@
 		0328E1BF24B415B50036B47C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328E1BE24B415B50036B47C /* UserModel.swift */; };
 		0328E1C324B4233B0036B47C /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328E1C124B4233B0036B47C /* CodeTableViewCell.swift */; };
 		0328E1C424B4233B0036B47C /* CodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0328E1C224B4233B0036B47C /* CodeTableViewCell.xib */; };
+		0328E1C624B495A40036B47C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0328E1C524B495A40036B47C /* Poppins-SemiBoldItalic.ttf */; };
 		033E9BFC24B3C7B5008C4AA1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E9BFB24B3C7B4008C4AA1 /* Colors.xcassets */; };
 		033E9BFD24B3C7B5008C4AA1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E9BFB24B3C7B4008C4AA1 /* Colors.xcassets */; };
 		033E9BFE24B3C7B5008C4AA1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E9BFB24B3C7B4008C4AA1 /* Colors.xcassets */; };
@@ -60,6 +61,7 @@
 		0328E1BE24B415B50036B47C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		0328E1C124B4233B0036B47C /* CodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
 		0328E1C224B4233B0036B47C /* CodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeTableViewCell.xib; sourceTree = "<group>"; };
+		0328E1C524B495A40036B47C /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		033E9BFB24B3C7B4008C4AA1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		0399984924B25EA6000C43A6 /* madical_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = madical_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0399984C24B25EA6000C43A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		033E9BFA24B3C773008C4AA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0328E1C524B495A40036B47C /* Poppins-SemiBoldItalic.ttf */,
 				033E9BFB24B3C7B4008C4AA1 /* Colors.xcassets */,
 				0399985524B25EAF000C43A6 /* Photo.xcassets */,
 			);
@@ -373,6 +376,7 @@
 				03C05FBB24B38D32003E880A /* UserCollectionViewCell.xib in Resources */,
 				0399985924B25EAF000C43A6 /* LaunchScreen.storyboard in Resources */,
 				0328E1C424B4233B0036B47C /* CodeTableViewCell.xib in Resources */,
+				0328E1C624B495A40036B47C /* Poppins-SemiBoldItalic.ttf in Resources */,
 				033E9BFC24B3C7B5008C4AA1 /* Colors.xcassets in Resources */,
 				0399985624B25EAF000C43A6 /* Photo.xcassets in Resources */,
 				0399985424B25EA6000C43A6 /* Main.storyboard in Resources */,
