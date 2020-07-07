@@ -212,7 +212,7 @@
                                             <outlet property="usersCollectionView" destination="1qj-8c-yJy" id="0K2-qm-Gb3"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" tag="2" contentMode="scaleToFill" restorationIdentifier="CodeTableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CodeTableViewCell" rowHeight="356" id="9cs-39-WI5" customClass="CodeTableViewCell" customModule="madical_test" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" tag="2" contentMode="scaleToFill" restorationIdentifier="CodeTableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CodeTableViewCell" rowHeight="356" id="9cs-39-WI5" customClass="CodeTableViewCell" customModule="madical_test" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="502" width="375" height="356"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9cs-39-WI5" id="YGA-m9-DkE">
@@ -221,7 +221,6 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -265,7 +264,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Rrq-77-ZgM" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="5ad-Hg-jas"/>
-                            <constraint firstAttribute="bottom" secondItem="WTy-js-j0h" secondAttribute="bottom" constant="113" id="6pu-9u-lTL"/>
+                            <constraint firstItem="Rrq-77-ZgM" firstAttribute="top" secondItem="WTy-js-j0h" secondAttribute="bottom" id="BZa-BO-V1n"/>
                             <constraint firstItem="WTy-js-j0h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DEf-ur-2CC"/>
                             <constraint firstItem="WTy-js-j0h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EjD-s0-ZZ4"/>
                             <constraint firstItem="nKP-La-adU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hmj-ha-Cja"/>
