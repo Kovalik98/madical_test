@@ -58,13 +58,13 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-uY-bmY">
-                                        <rect key="frame" x="26" y="40" width="63.5" height="24"/>
+                                        <rect key="frame" x="26" y="40" width="57" height="20"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mumbai ∨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCc-1d-FHy">
-                                        <rect key="frame" x="263" y="40" width="85.5" height="24"/>
+                                        <rect key="frame" x="272" y="40" width="77" height="20"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -155,13 +155,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors nearby you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kk-nv-3aN">
-                                                    <rect key="frame" x="15" y="-4" width="169.5" height="24"/>
+                                                    <rect key="frame" x="15" y="-4" width="149.5" height="20"/>
                                                     <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                                     <color key="textColor" name="title"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOn-CQ-LyO">
-                                                    <rect key="frame" x="318" y="5" width="47" height="107"/>
+                                                    <rect key="frame" x="318" y="11" width="47" height="101"/>
                                                     <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" title="See All"/>
                                                 </button>
@@ -204,7 +204,7 @@
                                                 <constraint firstItem="7Kk-nv-3aN" firstAttribute="top" secondItem="QVT-DL-fww" secondAttribute="topMargin" constant="-15" id="Q0s-Cc-HJy"/>
                                                 <constraint firstItem="1qj-8c-yJy" firstAttribute="centerX" secondItem="QVT-DL-fww" secondAttribute="centerX" id="dGR-t1-aAO"/>
                                                 <constraint firstItem="7Kk-nv-3aN" firstAttribute="leading" secondItem="QVT-DL-fww" secondAttribute="leadingMargin" id="mej-qe-Ro4"/>
-                                                <constraint firstItem="kOn-CQ-LyO" firstAttribute="top" secondItem="QVT-DL-fww" secondAttribute="top" constant="5" id="tyX-zj-5KN"/>
+                                                <constraint firstItem="kOn-CQ-LyO" firstAttribute="top" secondItem="QVT-DL-fww" secondAttribute="top" constant="11" id="tyX-zj-5KN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
