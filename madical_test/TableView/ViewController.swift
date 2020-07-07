@@ -12,7 +12,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var headView: UIView!
     @IBOutlet weak var firstView: SectionsView!
     @IBOutlet weak var secondView: SectionsView!
@@ -28,24 +27,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        firstView.name.text = "Doctor"
-        secondView.name.text = "Medicines"
-        thirdView.name.text = "Digonostic"
-        firstView.subtext.text = "Search doctor  around you"
-        secondView.subtext.text = "Order Medicine to home"
-        thirdView.subtext.text = "Book test at Doorstep"
-        secondView.logoImg.image = photoTranslation(text: "nurse")
-        thirdView.logoImg.image = photoTranslation(text: "pill")
-         setupTableView()
+        
+        setupTableView()
+        content()
         headView.layer.cornerRadius = 25
         headView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         tabBarView.layer.cornerRadius = 25
-        firstTabBar.name.text = "Home"
-        secondTabBar.name.text = "Chat"
-        thirdTabBar.name.text = "Account"
-        firstTabBar.image.image = photoTranslation(text: "Path 367")
-        thirdTabBar.image.image = photoTranslation(text: "user-4")
         
         let ind = UINib(nibName: "CodeTableViewCell", bundle: nil)
         tableView.register(ind, forCellReuseIdentifier: "CodeTableViewCell")
@@ -56,8 +43,24 @@ class ViewController: UIViewController {
     }
     
     func photoTranslation(text: String) -> UIImage {
-         viewImage = UIImage(named: text)!
+        viewImage = UIImage(named: text)!
         return viewImage
+    }
+    func content(){
+        firstView.name.text = "Doctor"
+        secondView.name.text = "Medicines"
+        thirdView.name.text = "Digonostic"
+        firstView.subtext.text = "Search doctor  around you"
+        secondView.subtext.text = "Order Medicine to home"
+        thirdView.subtext.text = "Book test at Doorstep"
+        secondView.logoImg.image = photoTranslation(text: "nurse")
+        thirdView.logoImg.image = photoTranslation(text: "pill")
+        firstTabBar.name.text = "Home"
+        secondTabBar.name.text = "Chat"
+        thirdTabBar.name.text = "Account"
+        firstTabBar.image.image = photoTranslation(text: "Path 367")
+        thirdTabBar.image.image = photoTranslation(text: "user-4")
+        
     }
 }
 

@@ -77,6 +77,4 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UICollecti
         return cell
         
     }
-    
-    
 }
