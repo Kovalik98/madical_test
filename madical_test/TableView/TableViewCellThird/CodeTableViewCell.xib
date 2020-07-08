@@ -113,6 +113,7 @@
                 <outlet property="logoImage" destination="U5R-rh-vMy" id="3ly-HX-JEg"/>
                 <outlet property="textField" destination="WuI-Gf-geD" id="EgO-3o-Ncb"/>
                 <outlet property="titleLabe" destination="Zon-wE-YAr" id="KvN-KA-VpO"/>
+                <outlet property="view" destination="azW-Nf-AQ9" id="cbE-Gm-otu"/>
             </connections>
             <point key="canvasLocation" x="171.73913043478262" y="185.82589285714286"/>
         </tableViewCell>

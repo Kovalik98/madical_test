@@ -12,15 +12,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var headView: UIView!
-    @IBOutlet weak var firstView: SectionsView!
-    @IBOutlet weak var secondView: SectionsView!
-    @IBOutlet weak var thirdView: SectionsView!
-    @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var tabBarView: UIView!
-    @IBOutlet weak var firstTabBar: TabBar!
-    @IBOutlet weak var secondTabBar: TabBar!
-    @IBOutlet weak var thirdTabBar: TabBar!
+    @IBOutlet weak private var headView: UIView!
+    @IBOutlet weak private var firstView: SectionsView!
+    @IBOutlet weak private var secondView: SectionsView!
+    @IBOutlet weak private var thirdView: SectionsView!
+    @IBOutlet weak  var tableView: UITableView!
+    @IBOutlet weak private var tabBarView: UIView!
+    @IBOutlet weak private var firstTabBar: TabBar!
+    @IBOutlet weak private var secondTabBar: TabBar!
+    @IBOutlet weak private var thirdTabBar: TabBar!
     
     var viewImage: UIImage = UIImage(named: "nurse")!
     var user:[UserModel] = []

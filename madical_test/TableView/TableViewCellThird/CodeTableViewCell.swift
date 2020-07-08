@@ -10,10 +10,11 @@ import UIKit
 
 class CodeTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var logoImage: UIImageView!
-    @IBOutlet weak var titleLabe: UILabel!
-    @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var dashedView: UIView!
+    @IBOutlet weak private var logoImage: UIImageView!
+    @IBOutlet weak private var titleLabe: UILabel!
+    @IBOutlet weak private var textField: UITextField!
+    @IBOutlet weak private var dashedView: UIView!
+    @IBOutlet weak private var view: UIView!
     
 
     override func awakeFromNib() {
@@ -21,6 +22,9 @@ class CodeTableViewCell: UITableViewCell {
         textField.layer.cornerRadius = 15.0
         textField.layer.borderWidth = 1.0
         textField.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        
+        
+      
     }
     
 }
