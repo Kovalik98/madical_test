@@ -24,14 +24,14 @@
                             <constraint firstAttribute="height" constant="279" id="eth-14-BmX"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0J1-9c-FaC">
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="0J1-9c-FaC">
                         <rect key="frame" x="29" y="280" width="311" height="54"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ds3-w7-bhS">
                                 <rect key="frame" x="0.0" y="0.0" width="132" height="54"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share the  Given code" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zon-wE-YAr">
-                                        <rect key="frame" x="0.0" y="6" width="102" height="42"/>
+                                        <rect key="frame" x="15" y="6" width="102" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" name="title"/>
@@ -48,11 +48,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zQ-AN-Dyc">
                                 <rect key="frame" x="140" y="0.0" width="171" height="54"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="NHDFG" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WuI-Gf-geD">
-                                        <rect key="frame" x="8" y="10" width="155" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  NHDFG" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WuI-Gf-geD">
+                                        <rect key="frame" x="8" y="10" width="176" height="34"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="155" id="gj4-Eq-DtM"/>
+                                            <constraint firstAttribute="width" constant="176" id="gj4-Eq-DtM"/>
                                             <constraint firstAttribute="height" constant="34" id="vrB-5q-gWg"/>
                                         </constraints>
                                         <color key="textColor" name="title"/>
@@ -60,20 +60,20 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWo-GD-VtG">
-                                        <rect key="frame" x="141" y="10" width="15" height="34"/>
+                                        <rect key="frame" x="148" y="10" width="15" height="34"/>
                                         <state key="normal" image="image"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="1II-oW-7Bt"/>
                                     <constraint firstAttribute="bottom" secondItem="KWo-GD-VtG" secondAttribute="bottom" constant="10" id="8RI-gN-7Oq"/>
-                                    <constraint firstItem="WuI-Gf-geD" firstAttribute="trailing" secondItem="KWo-GD-VtG" secondAttribute="trailing" constant="7" id="Kq7-cH-L0s"/>
+                                    <constraint firstItem="WuI-Gf-geD" firstAttribute="trailing" secondItem="KWo-GD-VtG" secondAttribute="trailing" constant="21" id="Kq7-cH-L0s"/>
                                     <constraint firstItem="KWo-GD-VtG" firstAttribute="top" secondItem="5zQ-AN-Dyc" secondAttribute="top" constant="10" id="WRq-rp-sHB"/>
                                     <constraint firstAttribute="height" constant="54" id="hTs-kU-vir"/>
                                     <constraint firstItem="WuI-Gf-geD" firstAttribute="top" secondItem="KWo-GD-VtG" secondAttribute="top" id="m7D-tK-f62"/>
                                     <constraint firstAttribute="width" constant="171" id="qcf-gQ-fxT"/>
-                                    <constraint firstAttribute="trailing" secondItem="KWo-GD-VtG" secondAttribute="trailing" constant="15" id="sSJ-FZ-a3t"/>
+                                    <constraint firstAttribute="trailing" secondItem="KWo-GD-VtG" secondAttribute="trailing" constant="8" id="sSJ-FZ-a3t"/>
                                 </constraints>
                             </view>
                         </subviews>

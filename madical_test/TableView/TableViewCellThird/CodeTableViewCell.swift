@@ -18,7 +18,9 @@ class CodeTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        textField.layer.cornerRadius = 35
+        textField.layer.cornerRadius = 15.0
+        textField.layer.borderWidth = 1.0
+        textField.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
     }
     
 }
