@@ -58,13 +58,13 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-uY-bmY">
-                                        <rect key="frame" x="26" y="40" width="57" height="20"/>
+                                        <rect key="frame" x="26" y="40" width="63.5" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mumbai ∨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCc-1d-FHy">
-                                        <rect key="frame" x="272" y="40" width="77" height="20"/>
+                                        <rect key="frame" x="263.5" y="40" width="85.5" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -189,7 +189,7 @@
                                                     </connections>
                                                 </collectionView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors nearby you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kk-nv-3aN">
-                                                    <rect key="frame" x="15" y="0.0" width="149.5" height="20"/>
+                                                    <rect key="frame" x="15" y="0.0" width="169.5" height="24"/>
                                                     <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins" pointSize="17"/>
                                                     <color key="textColor" name="title"/>
                                                     <nil key="highlightedColor"/>
